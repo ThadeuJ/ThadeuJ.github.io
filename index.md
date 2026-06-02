@@ -34,12 +34,15 @@ _04/2019 - 12/2021_
 
 ## **Engenharia de Software (Univesp):**
 _02/2025 - Presente_
+
 Melhoria das capacidades de desenvolvimentos arquitetônicos, dos sistemas mais integrados dos jogos a serem desenvolvidos.
 
 ## **Tecnologia em Jogos Digitais (Cruzeiro do Sul):**
 _08/2019 - 08/2021*_
+
 Busca por maior embasamento e conhecimento através de uma abordagem mais acadêmica para o desenvolvimento de jogos.
 
 ## **Engenharia de Controle e Automação (Anhanguera Sorocaba):**
 _03/2010 - 12/2014_
+
 Formação fundamental em lógica, engenharia e resolução de problemas técnicos.
