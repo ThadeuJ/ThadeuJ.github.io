@@ -2,122 +2,44 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+# **SOBRE MIM:**
+Desenvolvedor Unity C# com sólida formação em Engenharia de Controle e Automação e experiência na criação de jogos, otimização de performance e ferramentas internas. 
+Especialista no desenvolvimento de sistemas escaláveis utilizando C#, Compute Shaders, e criação de ferramentas especializadas para expansão das funcionalidades da engine, 
+sempre com foco na eficiência e na qualidade técnica da aplicação final.
 
-[Link to another page](./another-page.html).
+# **EXPERIÊNCIA:**
 
-There should be whitespace between paragraphs.
+## **Desenvolvedor Unity Sênior (Eden’s Frontier):**
+_10/2024 - Presente_
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+**Responsabilidades**
+* Liderança da arquitetura técnica de um jogo de RPG de ação, com múltiplos sistemas integrados, como localização, leveling, diálogos, cutscenes.
+* Desenvolvimento de Compute Shaders e rotinas de otimização de performance, e ferramentas de auxílio ao Game Design.
 
-# Header 1
+## **Desenvolvedor Unity (MBR):**
+_12/2021 - 02/2024_
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+**Responsabilidades**
+* Responsável pelo desenvolvimento de projetos trazidos pelo departamento pedagógico dentro do Unity, focando principalmente em jogos acadêmicos e educacionais.
+* Criação de assets 3D e participação ativa no processo criativo, com autonomia para tomadas de decisão sobre performance e desenvolvimento.
 
-## Header 2
+## **Gerente de Comunicação e TI (CCBEU Sorocaba):**
+_04/2019 - 12/2021_
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+**Responsabilidades**
+* Gestão de mídias sociais, marketing e desenvolvimento de conteúdo educacional.
+* Atuação como gerente técnico no suporte a professores e busca contínua por implementação de novas tecnologias e cursos.
 
-### Header 3
+# **FORMAÇÃO:**
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+## **Engenharia de Software (Univesp):**
+_02/2025 - Presente_
+Melhoria das capacidades de desenvolvimentos arquitetônicos, dos sistemas mais integrados dos jogos a serem desenvolvidos.
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+## **Tecnologia em Jogos Digitais (Cruzeiro do Sul):**
+_08/2019 - 08/2021*_
+Busca por maior embasamento e conhecimento através de uma abordagem mais acadêmica para o desenvolvimento de jogos.
 
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+## **Engenharia de Controle e Automação (Anhanguera Sorocaba):**
+_03/2010 - 12/2014_
+Formação fundamental em lógica, engenharia e resolução de problemas técnicos.
