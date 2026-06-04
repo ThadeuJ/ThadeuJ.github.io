@@ -2,7 +2,7 @@
 
 ## layout: default
 
-[**PT Version**](.Index.MD)
+[**PT BR Version**](index.md)
 
 # **ABOUT ME:**
 
