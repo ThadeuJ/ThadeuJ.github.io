@@ -46,21 +46,21 @@ _08/2019 - 08/2021*_
 _03/2010 - 12/2014_
 
 * Formação fundamental em lógica, engenharia e resolução de problemas técnicos.
-* 
-# PROJETOS:
+
+# **PROJETOS:**
 
 ## **Sistema de Localização (Frontiers Group 2026)**
-*Elaboração de um sistema de localização completo, capaz de ser integrado de forma fácil dentro de qualquer projeto, e capaz de ler o projeto para integrar novas entradas de textos.
+* Elaboração de um sistema de localização completo, capaz de ser integrado de forma fácil dentro de qualquer projeto, e capaz de ler o projeto para integrar novas entradas de textos.
 
 **Aprendizado**
-*Trabalhar com arquivos proprietários.
-*Utilizar adressables para carregamento instantáneo das localizações.
-*Criação e _biuld_ de editor desacoplado _Web GL_ dentro do próprio projeto.
-*Extender a _Text Mesh Pro_ para efeitos, e tradução instantânea.
-*Criação de ferramentas de atualização e instalação, para permitir aplicação do sistema de forma desacoplada.
+* Trabalhar com arquivos proprietários.
+* Utilizar adressables para carregamento instantáneo das localizações.
+* Criação e _biuld_ de editor desacoplado _Web GL_ dentro do próprio projeto.
+* Extender a _Text Mesh Pro_ para efeitos, e tradução instantânea.
+* Criação de ferramentas de atualização e instalação, para permitir aplicação do sistema de forma desacoplada.
 
 ## **Sistema de Save (Frontiers Group 2026)**
-*Projeto da arquitetura modularizada de um arquivo de Salve que seja utilizavel para qualquer novo projeto do estúdio.
+* Projeto da arquitetura modularizada de um arquivo de Salve que seja utilizavel para qualquer novo projeto do estúdio.
 
 **Aprendizado**
 * Trabalhar com serialização de informações via _Data Contract_.
@@ -89,7 +89,7 @@ _03/2010 - 12/2014_
 * Implementação de fluxos de Scriptable Objects para leitura estática.
 
 ## **Sistema de Combos (Frontiers Group 2024)**
-*Integração de um sistema de Combo, mais completo, com possíbilidade de criar combinações diferentes de botões diretamente do editor com aplicação de inputs tanto legados, quanto seguindo o novo sistema da Unity.
+* Integração de um sistema de Combo, mais completo, com possíbilidade de criar combinações diferentes de botões diretamente do editor com aplicação de inputs tanto legados, quanto seguindo o novo sistema da Unity.
 
 **Aprendizado**
 * Integração de fluxo de Inputs, com as animações.
