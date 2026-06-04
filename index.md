@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+
 # **SOBRE MIM:**
 Desenvolvedor Unity C# com sólida formação em Engenharia de Controle e Automação e experiência na criação de jogos, otimização de performance e ferramentas internas. 
 Especialista no desenvolvimento de sistemas escaláveis utilizando C#, Compute Shaders, e criação de ferramentas especializadas para expansão das funcionalidades da engine, 
@@ -46,3 +46,112 @@ _08/2019 - 08/2021*_
 _03/2010 - 12/2014_
 
 * Formação fundamental em lógica, engenharia e resolução de problemas técnicos.
+* 
+# PROJETOS:
+
+## **Sistema de Localização (Frontiers Group 2026)**
+*Elaboração de um sistema de localização completo, capaz de ser integrado de forma fácil dentro de qualquer projeto, e capaz de ler o projeto para integrar novas entradas de textos.
+
+**Aprendizado**
+*Trabalhar com arquivos proprietários.
+*Utilizar adressables para carregamento instantáneo das localizações.
+*Criação e _biuld_ de editor desacoplado _Web GL_ dentro do próprio projeto.
+*Extender a _Text Mesh Pro_ para efeitos, e tradução instantânea.
+*Criação de ferramentas de atualização e instalação, para permitir aplicação do sistema de forma desacoplada.
+
+## **Sistema de Save (Frontiers Group 2026)**
+*Projeto da arquitetura modularizada de um arquivo de Salve que seja utilizavel para qualquer novo projeto do estúdio.
+
+**Aprendizado**
+* Trabalhar com serialização de informações via _Data Contract_.
+* Salve persistente de arquivos, e encadeamento de ações de forma desacoplada.
+
+## **Sistema de Sombras (Frontiers Group 2025)**
+* Sistema Otimizado de projeção de sombras para sprites 2D em ambientes 3D.
+
+**Aprendizado**
+* Utilização de Compute Shaders, para criação e desenho de sprites em projeções de texturas.
+* Otimização para pooling, e iluminação.
+
+## **Sistema de Cutscenes (Frontiers Group 2025)**
+* Implementação de um sistema de Cutscenes, como uma alternativa a Timeline da Unity, permitindo cadenciar chamados de eventos.
+
+**Aprendizado**
+* Utilização de Reflexão para criar e adicionar componentes que implementão uma mesma interface.
+* Trabalhar com encadeamento de ações e eventos.
+
+## **Sistema de Níveis e Tipos (Frontiers Group 2024)**
+* Criação de um sistema de Niveis, experiência, tipos, equações e equipamentos, de forma a dar liberdade a equipe de design na criação de inimigos e estatisticas.
+
+**Aprendizado:**
+* Criação de um sistema de equações.
+* Arquitetura e utlização do Reflexão para captura de tipos.
+* Implementação de fluxos de Scriptable Objects para leitura estática.
+
+## **Sistema de Combos (Frontiers Group 2024)**
+*Integração de um sistema de Combo, mais completo, com possíbilidade de criar combinações diferentes de botões diretamente do editor com aplicação de inputs tanto legados, quanto seguindo o novo sistema da Unity.
+
+**Aprendizado**
+* Integração de fluxo de Inputs, com as animações.
+* Trabalhar cachê e cadência de Inputs para manter consistência e leitura dos combos.
+* Utilização do novo sistema de Inputs da Unity (2024).
+
+## **Sistema de Dialogos (Frontiers Group 2024)**
+* Projeto de um sistema de configuração de Dialogos, editável por diagrama de blocos, com importação de arquivos externos como CSV, e aceitando múltiplas artes e estados, bem como reações e animações.
+
+**Aprendizado:**
+* Criação de janelas de editores UGUI na Unity.
+* Trabalhar com input de arquivos de múltiplas fontes, (CSV, JSON)
+* Modularização e criação de sistemas genéricos e possíveis de serem expansíveis.
+
+
+## **Conrado's Pixel Fun (2024)**
+* Projeto Pessoal feito para auxiliar meu filho a ter um melhor desenvolvimento do controle fino das mão, e contato com estimulos visuais coloridos [Link](https://github.com/ThadeuJ/CPF_Files/blob/main/CPF.apk).
+
+**Aprendizado:**
+* Desenvolvimento e utilização de dados salvos na Nuvem, e fluxo de Bundles dentro da Unity.
+* Transformação e interpretação de dados importados em múltiplos formatos.
+
+## **Projeto De app de Matemática (MBR 2024)**
+* Desenvolvimento de uma cópia do _Subway Surface_ para um app de ensino de matemática.
+
+**Aprendizado:**
+* Desenvolvimento de arquitetura mais estruturada, e escalável, para permitir múltiplos chamados para permitir atividades de contextos diferenciados.
+* Consolidação dos fluxos de gamificação de jogos educativos.
+
+## **Projeto de Unificar Aplicativos (MBR 2024)**
+* Desenvolvimento e padronização de aplicativos de estudo em um único app para economia de licensas.
+
+**Aprendizado:**
+* Adequação de códigos legados para novas versões.
+* Unificação de códigos parecidos, padronização de arquiteturas, e simplificação de sistemas.
+* Utilização de licensas de realidade aumentada.
+
+## **Projeto Material de Inglês (MBR 2023-2023)**
+* Desenvolvimento de apostilas interativas dentro da Unity, para escolas já renomadas.
+
+**Aprendizado:**
+* Implementar fluxos de jogos multidiciplinares, com integrações de entregas do departamento pedagógico.
+* Participar ativamente do processo de Gamificação de aulas.
+
+## **Melhor Viagem (MBR 2022)**
+* Projeto realizado na Empresa MBR, fui responsável pela programação de controle, seleção dos aviões e da modelagem dos mundos, e cenários [link](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dcom.mbr.melhorviagem%26hl%3Dpt_BR&ved=2ahUKEwiK6vSO2uyUAxWDppUCHZBUA-sQFnoECBgQAQ&usg=AOvVaw3dZ1AqBIxbfX8pOBGalVAD)
+
+**Aprendizado:**
+* Modelagem de mundos com base de leituras de GPS (HeightMaps).
+* Modelagem lowpoly de aeroportos e pistas.
+* Programação e adequação de pacotes prontos para sistemas novos e mais complexos.
+
+## **Estudo de Modelagem 3D (2018 - 2019)**
+* Estudos e testes feitos em 3D como projetista generalista e modelador de personagens. [link](https://sketchfab.com/ThadeuJ).
+
+**Aprendizado:**
+  * Fluxo de modelagem de personagens completo (escultura 3D, modelagem, Retopologia, UV, Rig, Animação, Renderização).
+  * Fluxo de importação e utilização de modelos 3D dentro de engines modernas.
+  * Blender, Zbrush, Mixamo.
+
+## **Space Chase V1 (2018)**
+* Jogo de nave feito para a Game Jam de um curso da Udemy [link](https://thadeuj.itch.io/space-chase).
+  
+**Aprendizado:**
+  * Desenvolver Menus,percistência de cenas, biuld e publicação WebGL.
