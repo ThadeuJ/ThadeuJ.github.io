@@ -1,8 +1,7 @@
 ---
-
-## layout: default
-
-[**PT BR Version**](index.md)
+layout: default
+---
+[**PT BR Version**](thadeuJ.github.io)
 
 # **ABOUT ME:**
 
