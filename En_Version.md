@@ -126,6 +126,14 @@ Specialist in developing scalable systems using C#, Compute Shaders, and creatin
 * Working with multi-source file input (CSV, JSON).
 * Modularization and creation of generic and expandable systems.
 
+## **Space Chase V2 (2024)**
+* A better and more structured project of the Space Chase, with a upgraded documentation, made to improve the portifolio.[Link](https://sites.google.com/view/asasgamedev/inicio).
+
+**Learning:**
+* Improve the development of GDDs.
+* Documentation of game archives, and development.
+* Work with pixel art textures in Blender.
+
 ## **Conrado's Pixel Fun (2024)**
 
 * Personal project made to help my son better develop fine motor control and contact with colorful visual stimuli [Link](https://github.com/ThadeuJ/CPF_Files/blob/main/CPF.apk).
