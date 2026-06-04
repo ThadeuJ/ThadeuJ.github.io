@@ -1,6 +1,4 @@
----
-layout: default
----
+
 [**PT BR Version**](thadeuJ.github.io)
 
 # **ABOUT ME:**
