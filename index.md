@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+[EN Version](.)
 
 # **SOBRE MIM:**
 Desenvolvedor Unity C# com sólida formação em Engenharia de Controle e Automação e experiência na criação de jogos, otimização de performance e ferramentas internas. 
