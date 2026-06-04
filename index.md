@@ -105,6 +105,13 @@ _03/2010 - 12/2014_
 * Trabalhar com input de arquivos de múltiplas fontes, (CSV, JSON)
 * Modularização e criação de sistemas genéricos e possíveis de serem expansíveis.
 
+## **Space Chase V2 (2024)**
+* Projeto mais estruturado do Space Chase, com uma melhora na documentação, com o intuito de expandir o portifólio. [Link](https://sites.google.com/view/asasgamedev/inicio).
+
+**Aprendizado**
+* Organizar e desenvolver GDDs úteis.
+* Documentação de arquivos e da produção do jogo.
+* Trabalhar com  texturas em Pixel art dentro do Blender.
 
 ## **Conrado's Pixel Fun (2024)**
 * Projeto Pessoal feito para auxiliar meu filho a ter um melhor desenvolvimento do controle fino das mão, e contato com estimulos visuais coloridos [Link](https://github.com/ThadeuJ/CPF_Files/blob/main/CPF.apk).
