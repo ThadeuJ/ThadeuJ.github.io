@@ -8,6 +8,9 @@ Desenvolvedor Unity C# com sólida formação em Engenharia de Controle e Automa
 Especialista no desenvolvimento de sistemas escaláveis utilizando C#, Compute Shaders, e criação de ferramentas especializadas para expansão das funcionalidades da engine, 
 sempre com foco na eficiência e na qualidade técnica da aplicação final.
 
+## **Contatos:**
+[**Whatsapp**](https://wa.me/5515997329328) | [**linkedin**](https://www.linkedin.com/in/thadeu-moscatelli-2559061b0)
+
 # **EXPERIÊNCIA:**
 
 ## **Desenvolvedor Unity Sênior (Eden’s Frontier):**
