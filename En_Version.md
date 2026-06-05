@@ -6,6 +6,9 @@
 Unity C# Developer with a solid background in Control and Automation Engineering and experience in game creation, performance optimization, and internal tools.
 Specialist in developing scalable systems using C#, Compute Shaders, and creating specialized tools to expand engine functionalities, always focusing on efficiency and the technical quality of the final application.
 
+## **Contacts:**
+[**Whatsapp**](https://wa.me/5515997329328) | [**linkedin**](https://www.linkedin.com/in/thadeu-moscatelli-2559061b0)
+
 # **EXPERIENCE:**
 
 ## **Senior Unity Developer (Eden’s Frontier):**
