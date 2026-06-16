@@ -60,6 +60,14 @@ Specialist in developing scalable systems using C#, Compute Shaders, and creatin
 
 # **PROJECTS:**
 
+## **Analytic System (Frontiers Group 2026)**
+* A custom analytic system joing in game events like character deaths, attacks and custom events with python data processing, and a customized dashboard with real in game maps, for spatial exhibition in HTML.
+
+**Learning**
+* Unity Analytics events and exports.
+* Complete data treatment, mofeling and merging.
+* historic treatment and local saves  for ensuring upload even when an abrupt logout happens.
+  
 ## **Localization System (Frontiers Group 2026)**
 
 * Development of a complete localization system, capable of being easily integrated into any project, and able to read the project to integrate new text entries.
