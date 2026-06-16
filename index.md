@@ -53,6 +53,14 @@ _03/2010 - 12/2014_
 
 # **PROJETOS:**
 
+## **Sistema de Analytics (Frontiers Group 2026)**
+* Desenvolvimento de um sistema de Analytics personalizado integrando eventos do jogo como morte de personagens, ataques realizados, e eventos específicos, com tratamento de dados em python e dashboard com mapas do próprio jogo para exibicao espacial dos eventos, em HTML.
+
+**Aprendizado**
+* Unity Analytics eventos e exportação.
+* Tratamento completo de dados, aglutinação e modelagem.
+* tratamento de histórico e arquivos locais para envios em caso de encerramento abrupto.
+
 ## **Sistema de Localização (Frontiers Group 2026)**
 * Elaboração de um sistema de localização completo, capaz de ser integrado de forma fácil dentro de qualquer projeto, e capaz de ler o projeto para integrar novas entradas de textos.
 
