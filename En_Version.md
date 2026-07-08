@@ -8,6 +8,7 @@ Specialist in developing scalable systems using C#, Compute Shaders, and creatin
 
 ## **Contacts:**
 [**Whatsapp**](https://wa.me/5515997329328) | [**linkedin**](https://www.linkedin.com/in/thadeu-moscatelli-2559061b0)
+[**Asas GameDev**](https://github.com/asasGameDev)
 
 # **EXPERIENCE:**
 
@@ -59,6 +60,14 @@ Specialist in developing scalable systems using C#, Compute Shaders, and creatin
 * Fundamental education in logic, engineering, and technical problem-solving.
 
 # **PROJECTS:**
+
+## **Conrado's Quest (Asas Game Dev)** [Link Here](https://asasgamedev.github.io/ConradosQuest/)
+* Game that i'm doing to my son and to my portifolio, showing my Achitecture capabilities, and a complete game documentation.
+
+**Aprendizado**
+* deal with o Github pages.
+*  Game Design Documentation.
+* COmplete Documentation of a TDD.
 
 ## **Analytic System (Frontiers Group 2026)**
 * A custom analytic system joing in game events like character deaths, attacks and custom events with python data processing, and a customized dashboard with real in game maps, for spatial exhibition in HTML.

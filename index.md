@@ -10,6 +10,7 @@ sempre com foco na eficiência e na qualidade técnica da aplicação final.
 
 ## **Contatos:**
 [**Whatsapp**](https://wa.me/5515997329328) | [**linkedin**](https://www.linkedin.com/in/thadeu-moscatelli-2559061b0)
+[**Asas GameDev**](https://github.com/asasGameDev)
 
 # **EXPERIÊNCIA:**
 
@@ -52,6 +53,15 @@ _03/2010 - 12/2014_
 * Formação fundamental em lógica, engenharia e resolução de problemas técnicos.
 
 # **PROJETOS:**
+
+## **Conrado's Quest (Asas Game Dev)** [link aqui](https://asasgamedev.github.io/ConradosQuest/)
+* Jogo que eu estou fazendo para o meu filho e o meu portifólio, tentando mostrar minha capacidade em Arquiteturas, e documentação de um jogo por completo.
+
+**Aprendizado**
+* Lidar com o Github pages.
+* Documentação de Game Design.
+* Documentação completa de um TDD.
+
 
 ## **Sistema de Analytics (Frontiers Group 2026)**
 * Desenvolvimento de um sistema de Analytics personalizado integrando eventos do jogo como morte de personagens, ataques realizados, e eventos específicos, com tratamento de dados em python e dashboard com mapas do próprio jogo para exibicao espacial dos eventos, em HTML.
