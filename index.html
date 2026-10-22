@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfólio de jogos e projetos interativos de Thadeu Moscatelli.">
+  <title>Thadeu Moscatelli | Portfólio de jogos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/games.js" defer></script>
+  <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+  <div class="site-noise" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Voltar ao início">
+      <span class="brand-mark">TM</span>
+      <span>THADEU<span class="brand-dot">.</span>DEV</span>
+    </a>
+    <nav class="main-nav" aria-label="Navegação principal">
+      <a href="#games">Jogos</a>
+      <a href="#about">Sobre</a>
+      <a href="pages/legacy.html">Arquivo legado</a>
+    </nav>
+    <a class="language-switch" href="index-en.html" aria-label="Mudar para a versão em inglês"><span class="language-flag flag-uk" aria-hidden="true"></span><span>EN</span></a>
+    <a class="nav-contact" href="mailto:thadeu.moscatelli@gmail.com">Vamos conversar <span>↗</span></a>
+  </header>
+
+  <main id="top">
+    <section class="intro wrapper">
+      <div class="intro-index">THADEU<br>MOSCATELLI<br><span>DESENVOLVEDOR DE JOGOS</span></div>
+       <div class="intro-copy"><p class="eyebrow"><span class="status-dot"></span> Portfólio / 2026</p><h1>Jogos, ferramentas<br><em>&amp; experimentos.</em></h1><p>Desenvolvedor Unity/C# criando jogos e sistemas interativos com foco em arquitetura, performance e experiência.</p></div>
+       <div class="intro-meta"><span>ROLE PARA EXPLORAR</span><span class="scroll-line"></span></div>
+    </section>
+
+    <section class="spotlight wrapper" aria-labelledby="spotlight-title">
+       <div class="spotlight-header"><div><p class="eyebrow">Jogáveis agora / 00</p><h2 id="spotlight-title">Destaques<span class="accent">.</span></h2></div><div class="carousel-controls"><button class="carousel-button" id="carousel-prev" aria-label="Destaque anterior">←</button><span class="carousel-position" id="carousel-position">01 / 04</span><button class="carousel-button" id="carousel-next" aria-label="Próximo destaque">→</button></div></div>
+      <div class="spotlight-viewport"><div class="spotlight-track" id="spotlight-track"></div></div>
+      <div class="spotlight-dots" id="spotlight-dots" aria-label="Selecionar destaque"></div>
+    </section>
+
+    <section class="projects wrapper" id="games">
+      <div class="section-heading">
+         <div><p class="eyebrow">Trabalhos selecionados / 01</p><h2>Projetos individuais<span class="accent">.</span></h2></div>
+        <p class="section-intro">Jogos, protótipos e ferramentas em diferentes fases de produção.</p>
+      </div>
+      <div class="collection-tabs" role="tablist" aria-label="Coleções de projetos">
+        <button class="collection-tab is-active" role="tab" aria-selected="true" data-collection="personal">Meus jogos <span>04</span></button>
+        <button class="collection-tab" role="tab" aria-selected="false" data-collection="professional">Projetos profissionais <span>10</span></button>
+        <button class="collection-tab" role="tab" aria-selected="false" data-collection="lessons">Aulas <span>02</span></button>
+      </div>
+      <div class="filters" role="group" aria-label="Filtrar projetos">
+        <button class="filter-button is-active" data-filter="all">Todos <span class="filter-count"></span></button>
+        <button class="filter-button" data-filter="game">Jogos</button>
+        <button class="filter-button" data-filter="system">Sistemas</button>
+        <button class="filter-button" data-filter="study">Estudos</button>
+      </div>
+      <div class="project-grid" id="project-grid" aria-live="polite"></div>
+    </section>
+
+    <section class="about wrapper" id="about">
+       <div class="about-stamp">SOBRE<br><span>O AUTOR</span></div>
+       <div class="about-copy"><p class="eyebrow">Sobre / 02</p><h2>Onde a arte encontra<br><em>sistemas.</em></h2><p>Meu trabalho acontece entre o que o jogador sente e o que precisa funcionar por baixo. Jogos pessoais, ferramentas internas e sistemas para dar forma a mundos jogáveis.</p><a class="text-link" href="pages/curriculo.html">Sobre e currículo completo <span>↗</span></a></div>
+       <div class="about-stats"><div><strong>Unity</strong><span>engine principal</span></div><div><strong>C#</strong><span>sistemas e ferramentas</span></div><div><strong>3D</strong><span>construção de mundos</span></div></div>
+    </section>
+
+  </main>
+
+  <footer class="footer wrapper"><div class="brand"><span class="brand-mark">TM</span><span>THADEU<span class="brand-dot">.</span>DEV</span></div><p>PORTFOLIO / 2026</p><div class="footer-links"><a href="https://www.linkedin.com/in/thadeu-moscatelli-2559061b0" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://wa.me/5515997329328" target="_blank" rel="noreferrer">WhatsApp ↗</a></div></footer>
+
+  <dialog class="project-dialog" id="project-dialog"><button class="dialog-close" aria-label="Fechar detalhes">×</button><div id="dialog-content"></div></dialog>
+</body>
+</html>
