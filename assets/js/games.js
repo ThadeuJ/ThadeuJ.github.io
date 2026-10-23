@@ -19,8 +19,14 @@ const portfolioGames = [
     description: "Um projeto pessoal de estímulos visuais e coordenação motora, com dados salvos na nuvem e fluxo de bundles.",
     tags: ["Unity", "Mobile", "Projeto pessoal"], demo: true, postOrder: 2,
     link: "https://thadeu-moscatelli.itch.io/cpf", linkLabel: "Abrir no itch.io",
-    embedUrl: "https://html-classic.itch.zone/html/18941086/ConradosPixelFunBiuldWebGL/index.html?v=1787583140",
     cover: "https://img.itch.zone/aW1nLzI5NDk5NzkzLnBuZw==/original/ODhWL8.png"
+  },
+  {
+    id: "pokemon-academy", collection: "personal", status: "Jogável", type: "game", year: "2026", number: "05", visual: "orbit",
+    title: "Pokémon Academy", subtitle: "Aprenda, jogue e complete a Pokédex",
+    description: "Uma plataforma interativa de quizzes e desafios sobre Pokémon, com perguntas de tipos, ataques, silhuetas, PokéDoku e uma Pokédex.",
+    tags: ["Web", "JavaScript", "Pokémon"], demo: true, postOrder: 5,
+    link: "https://thadeuj.github.io/PokemonAcademy/", linkLabel: "Jogar agora"
   },
   {
     id: "analytics", collection: "professional", status: "Sistema", type: "system", year: "2026", number: "01", visual: "data",
@@ -93,13 +99,13 @@ const portfolioGames = [
     title: "Do primeiro objeto ao seu próprio Flappy Bird", subtitle: "Uma aula prática de criação de jogos",
     description: "Guia de consulta para entender cenas, objetos e eventos no GDevelop 5 enquanto você constrói um jogo simples de voo e obstáculos.",
     tags: ["Aula", "GDevelop 5", "Desenvolvimento de jogos"], demo: true, postOrder: 3, cover: "https://public-game-resources.gdevelop.io/5ff446dd-6129-4a61-b416-6293f8f262de/screenshots/screenshot_92bd61b1-9978-4b65-aac1-134cb9a768a1.png",
-    embedUrl: "https://gd.games/games/5ff446dd-6129-4a61-b416-6293f8f262de", link: "pages/lessons/flappy-bird-gdevelop.html", linkLabel: "Ler aula completa"
+    link: "https://gd.games/games/5ff446dd-6129-4a61-b416-6293f8f262de", linkLabel: "Jogar o projeto"
   },
   {
     id: "angry-bird-pico8-lesson", collection: "lessons", status: "Aula", type: "lesson", year: "PICO-8", number: "02", visual: "orbit",
     title: "Angry Bird em PICO-8", subtitle: "Do cart ao jogo executável na web",
     description: "Aula técnica sobre a arquitetura de um export HTML do PICO-8: canvas, runtime, cart compilado, controles, áudio e ciclo de execução.",
     tags: ["Aula", "PICO-8", "Lua / Web"], demo: true, postOrder: 4,
-    embedUrl: "assets/games/angry-bird/index.html", link: "pages/lessons/angry-bird-pico8.html", linkLabel: "Ler aula completa"
+    link: "https://thadeu-moscatelli.itch.io/angry", linkLabel: "Jogar no itch.io"
   }
 ];

@@ -2,6 +2,7 @@ const englishProjects = {
   "conrados-quest": ["Conrado's Quest", "An adventure made with affection", "A personal project developed for my son to explore a complete game architecture, from documentation to a playable world.", ["Unity", "Adventure", "Personal project"]],
   "space-chase-v2": ["Space Chase V2", "A second pass through the stars", "A more structured version of the spaceship game, created to deepen design, documentation, and pixel art work.", ["Unity", "Pixel art", "Game design"]],
   "pixel-fun": ["Conrado's Pixel Fun", "Small colorful discoveries", "A personal project for visual stimuli and motor coordination, with cloud saves and a bundle workflow.", ["Unity", "Mobile", "Personal project"]],
+  "pokemon-academy": ["Pokémon Academy", "Learn, play, and complete the Pokédex", "An interactive platform of Pokémon quizzes and challenges, with questions about types, moves, silhouettes, PokéDoku, and a Pokédex.", ["Web", "JavaScript", "Pokémon"]],
   analytics: ["Game Analytics System", "Seeing the game behind the game", "An analytics system with game events, Python processing, and a spatial HTML dashboard for visualizing behavior inside levels.", ["Unity", "Python", "Data visualization"]],
   "melhor-viagem": ["Melhor Viagem", "Learning is also a journey", "An educational game developed with control programming, airplane selection, low-poly world modeling, and scenario design.", ["Unity", "Educational", "3D"]],
   "space-chase": ["Space Chase V1", "The first launch", "A spaceship game created in a course Game Jam, with menus, scene persistence, build, and WebGL publication.", ["Unity", "Game Jam", "WebGL"]],
@@ -29,8 +30,8 @@ portfolioGames.forEach((project) => {
   if (project.status === "Aula") project.status = "Lesson";
   if (project.linkLabel === "Ver projeto") project.linkLabel = "View project";
   if (project.linkLabel === "Ver documentação") project.linkLabel = "View documentation";
-  if (project.linkLabel === "Jogar no itch.io") project.linkLabel = "Play on itch.io";
+  if (project.linkLabel === "Jogar no itch.io" || project.linkLabel === "Abrir no itch.io") project.linkLabel = "Play on itch.io";
   if (project.linkLabel === "Ler aula completa") project.linkLabel = "Read the full lesson";
+  if (project.linkLabel === "Jogar o projeto") project.linkLabel = "Play the project";
 });
-portfolioGames.find((project) => project.id === "flappy-bird-lesson").link = "pages/lessons/flappy-bird-gdevelop-en.html";
-portfolioGames.find((project) => project.id === "angry-bird-pico8-lesson").link = "pages/lessons/angry-bird-pico8-en.html";
+portfolioGames.find((project) => project.id === "angry-bird-pico8-lesson").link = "https://thadeu-moscatelli.itch.io/angry";

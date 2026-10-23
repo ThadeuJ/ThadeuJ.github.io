@@ -10,23 +10,39 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
-<body>
+<body class="is-intro">
+  <div class="starfield" aria-hidden="true"></div>
   <div class="site-noise" aria-hidden="true"></div>
-  <main class="resume-page wrapper">
-    <header class="topbar resume-topbar">
+  <header class="topbar resume-topbar">
       <a class="brand" href="../index.html" aria-label="Voltar ao portfólio"><span class="brand-mark">TM</span><span>THADEU<span class="brand-dot">.</span>DEV</span></a>
-      <nav class="main-nav" aria-label="Navegação principal"><a href="../index.html#games">Jogos</a><a href="../index.html#about">Sobre</a><a href="curriculo.html" aria-current="page">Currículo</a></nav>
-      <a class="language-switch" href="curriculo-en.html" aria-label="Mudar para a versão em inglês"><span class="language-flag flag-uk" aria-hidden="true"></span><span>EN</span></a><a class="nav-contact" href="mailto:thadeu.moscatelli@gmail.com">Vamos conversar <span>↗</span></a>
-    </header>
+      <nav class="main-nav" aria-label="Navegação principal"><a href="../index.html#games">Jogos</a><a href="../index.html#about">Sobre</a></nav>
+      <a class="language-switch" href="curriculo-en.html" aria-label="Mudar para a versão em inglês"><img class="language-flag" src="../assets/icons/flag-england.svg" alt=""><span>EN</span></a><button class="nav-contact" type="button" data-contact-dialog>Vamos conversar <span>↗</span></button>
+  </header>
+  <main class="resume-page wrapper">
 
     <section class="resume-hero">
       <div>
         <p class="eyebrow"><span class="status-dot"></span> Currículo / 2026</p>
         <h1>Thadeu<br><em>Moscatelli.</em></h1>
         <p class="resume-lead">Desenvolvedor Unity/C# especializado em transformar ideias de jogo em sistemas sólidos, escaláveis e prontos para produção.</p>
-        <div class="resume-actions"><a class="button button-primary" href="mailto:thadeu.moscatelli@gmail.com">Entrar em contato ↗</a><button class="button text-link" type="button" onclick="window.print()">Salvar como PDF ↗</button></div>
+        <div class="resume-actions"><a class="button button-primary" href="mailto:thadeu.moscatelli@gmail.com">Entrar em contato ↗</a><a class="button text-link" href="../assets/documents/Curriculo_Profissional_Thadeu_Moscatelli_Pagina_Unica.pdf" download>Baixar currículo ↗</a></div>
       </div>
-      <div class="resume-aside"><strong>UNITY<br>+ C#</strong><span>Arquitetura de jogos<br>Performance &amp; ferramentas<br>Experiências interativas</span></div>
+      <div class="resume-aside"><img class="resume-avatar" src="https://github.com/ThadeuJ.png?size=240" alt="Foto de perfil de Thadeu Moscatelli no GitHub"><strong>UNITY<br>+ C#</strong><span>Arquitetura de jogos<br>Performance &amp; ferramentas<br>Experiências interativas</span></div>
+    </section>
+
+    <section class="resume-tools">
+      <h2>Tecnologias</h2>
+      <div class="resume-tools-list">
+        <div class="resume-tool"><img src="../assets/icons/unity.svg" alt="Unity"><span>Unity</span></div>
+        <div class="resume-tool"><img src="../assets/icons/csharp.svg" alt="C#"><span>C#</span></div>
+        <div class="resume-tool"><img src="../assets/icons/godot.svg" alt="Godot"><span>Godot</span></div>
+        <div class="resume-tool"><img src="../assets/icons/lua.svg" alt="Lua"><span>Lua</span></div>
+        <div class="resume-tool"><img src="../assets/icons/pico8.svg" alt="PICO-8"><span>PICO-8</span></div>
+        <div class="resume-tool"><img src="../assets/icons/love2d.svg" alt="LÖVE2D"><span>LÖVE2D</span></div>
+        <div class="resume-tool"><img src="../assets/icons/raylib.svg" alt="Raylib"><span>Raylib</span></div>
+        <div class="resume-tool"><img src="../assets/icons/github.svg" alt="GitHub"><span>GitHub</span></div>
+        <div class="resume-tool"><img src="../assets/icons/blender.svg" alt="Blender"><span>Blender</span></div>
+      </div>
     </section>
 
     <section class="resume-contact">
@@ -37,6 +53,7 @@
     <section class="resume-section">
       <h2>Experiência</h2>
       <div class="resume-section-body">
+        <article class="resume-item"><div class="resume-date">03/2026 — presente</div><div><h3>Professor de Tecnologia e Inglês</h3><span class="resume-company">Chroma Tecnologia</span></div></article>
         <article class="resume-item"><div class="resume-date">10/2024 — presente</div><div><h3>Desenvolvedor Unity Sênior</h3><span class="resume-company">Eden’s Frontier</span><ul><li>Liderança da arquitetura técnica de um RPG de ação com sistemas de localização, leveling, diálogos e cutscenes.</li><li>Desenvolvimento de Compute Shaders, rotinas de otimização de performance e ferramentas de apoio ao Game Design.</li></ul></div></article>
         <article class="resume-item"><div class="resume-date">12/2021 — 02/2024</div><div><h3>Desenvolvedor Unity</h3><span class="resume-company">MBR</span><ul><li>Desenvolvimento de jogos acadêmicos e educacionais a partir das necessidades do departamento pedagógico.</li><li>Criação de assets 3D e participação no processo criativo, com autonomia sobre performance e desenvolvimento.</li></ul></div></article>
         <article class="resume-item"><div class="resume-date">04/2019 — 12/2021</div><div><h3>Gerente de Comunicação e TI</h3><span class="resume-company">CCBEU Sorocaba</span><ul><li>Gestão de mídias sociais, marketing e desenvolvimento de conteúdo educacional.</li><li>Suporte técnico a professores e implementação de novas tecnologias e cursos.</li></ul></div></article>
@@ -62,7 +79,9 @@
       <div class="resume-projects"><article class="resume-project"><h3>Conrado’s Quest</h3><p>Jogo autoral desenvolvido para explorar arquitetura, documentação e produção completa de um jogo. <a href="https://asasgamedev.github.io/ConradosQuest/" target="_blank" rel="noreferrer">Ver projeto ↗</a></p></article><article class="resume-project"><h3>Analytics personalizado</h3><p>Sistema de eventos de jogo com tratamento em Python e dashboard espacial em HTML.</p></article><article class="resume-project"><h3>Sistema de localização</h3><p>Pipeline modular com editor WebGL, Addressables, TextMesh Pro e ferramentas de atualização.</p></article><article class="resume-project"><h3>Sistema de sombras</h3><p>Projeção otimizada de sombras para sprites 2D em ambientes 3D usando Compute Shaders.</p></article><article class="resume-project"><h3>Conrado’s Pixel Fun</h3><p>Projeto mobile de estímulos visuais, coordenação motora, dados em nuvem e Bundles. <a href="https://github.com/ThadeuJ/CPF_Files/blob/main/CPF.apk" target="_blank" rel="noreferrer">Abrir ↗</a></p></article><article class="resume-project"><h3>Estudo de Modelagem 3D</h3><p>Fluxo completo de escultura, retopologia, UV, rig, animação e renderização.</p></article></div>
     </section>
 
-    <footer class="footer resume-footer"><div class="brand"><span class="brand-mark">TM</span><span>THADEU<span class="brand-dot">.</span>DEV</span></div><p>CURRÍCULO / 2026</p><div class="footer-links"><a href="../index.html">Voltar ao portfólio ↗</a></div></footer>
+  <footer class="footer resume-footer"><div class="brand"><span class="brand-mark">TM</span><span>THADEU<span class="brand-dot">.</span>DEV</span></div><p>CURRÍCULO / 2026</p><div class="footer-links"><a href="../index.html">Voltar ao portfólio ↗</a></div></footer>
   </main>
+  <dialog class="contact-dialog" id="contact-dialog"><button class="dialog-close contact-dialog-close" aria-label="Fechar formulário">×</button><p class="eyebrow">Contato / Vamos conversar</p><h2>Vamos criar algo juntos<span class="accent">.</span></h2><p class="contact-dialog-intro">Envie uma mensagem ou escolha um canal direto para falar comigo.</p><form class="contact-form" id="contact-form"><label>Nome<input name="name" type="text" autocomplete="name" required></label><label>E-mail<input name="email" type="email" autocomplete="email" required></label><label>Mensagem<textarea name="message" rows="4" required></textarea></label><button class="button button-primary" type="submit">Enviar mensagem ↗</button></form><p class="contact-links-title">Canais diretos</p><div class="contact-links"><a href="https://wa.me/5515997329328" target="_blank" rel="noreferrer" aria-label="WhatsApp"><img src="../assets/icons/whatsapp.svg" alt="WhatsApp"></a><a href="https://www.linkedin.com/in/thadeu-moscatelli-2559061b0" target="_blank" rel="noreferrer" aria-label="LinkedIn"><img src="../assets/icons/linkedin.svg" alt="LinkedIn"></a><a href="mailto:thadeu.moscatelli@gmail.com" aria-label="E-mail"><img src="../assets/icons/email.svg" alt="E-mail"></a></div></dialog>
+  <script src="../assets/js/script.js" defer></script>
 </body>
 </html>
