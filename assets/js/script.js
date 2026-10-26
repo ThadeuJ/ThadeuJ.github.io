@@ -14,6 +14,7 @@ const visualThemes = ["lavender", "lime", "coral", "blue", "orange", "mint"];
 let activeCollection = "personal";
 let spotlightIndex = 0;
 let revealObserver;
+let suppressSpotlightClick = false;
 
 function initStarfield() {
   const field = document.querySelector(".starfield");
@@ -74,8 +75,9 @@ function renderSpotlight() {
     if (project.lessonUrl) window.location.href = project.lessonUrl;
     else openProject(button.dataset.project);
   }));
-  dots.querySelectorAll("[data-slide]").forEach((dot) => dot.addEventListener("click", () => moveSpotlight(Number(dot.dataset.slide), demos.length)));
-  updateSpotlight(demos.length);
+   dots.querySelectorAll("[data-slide]").forEach((dot) => dot.addEventListener("click", () => moveSpotlight(Number(dot.dataset.slide), demos.length)));
+   initSpotlightSwipe(demos.length);
+   updateSpotlight(demos.length);
 }
 
 function updateSpotlight(total) {
@@ -84,6 +86,61 @@ function updateSpotlight(total) {
   track.style.transform = `translateX(-${spotlightIndex * 100}%)`;
   position.textContent = `${String(spotlightIndex + 1).padStart(2, "0")} / ${String(total).padStart(2, "0")}`;
   document.querySelectorAll(".spotlight-dot").forEach((dot, index) => dot.classList.toggle("is-active", index === spotlightIndex));
+}
+
+function initSpotlightSwipe(total) {
+  const viewport = document.querySelector(".spotlight-viewport");
+  if (!viewport || viewport.dataset.swipeReady) return;
+  viewport.dataset.swipeReady = "true";
+
+  let startX = 0;
+  let startY = 0;
+  let isDragging = false;
+
+  const resetPointer = () => {
+    startX = 0;
+    startY = 0;
+    isDragging = false;
+    viewport.classList.remove("is-dragging");
+  };
+
+  viewport.addEventListener("pointerdown", (event) => {
+    if (event.pointerType === "mouse" && event.button !== 0) return;
+    startX = event.clientX;
+    startY = event.clientY;
+    isDragging = false;
+    viewport.setPointerCapture?.(event.pointerId);
+  });
+
+  viewport.addEventListener("pointermove", (event) => {
+    if (!startX && !startY) return;
+    const deltaX = event.clientX - startX;
+    const deltaY = event.clientY - startY;
+    if (Math.abs(deltaX) < 8 || Math.abs(deltaX) <= Math.abs(deltaY)) return;
+    isDragging = true;
+    viewport.classList.add("is-dragging");
+    event.preventDefault();
+  });
+
+  viewport.addEventListener("pointerup", (event) => {
+    if (!startX && !startY) return;
+    const deltaX = event.clientX - startX;
+    const deltaY = event.clientY - startY;
+    if (isDragging && Math.abs(deltaX) >= 45 && Math.abs(deltaX) > Math.abs(deltaY)) {
+      spotlightIndex += deltaX < 0 ? 1 : -1;
+      moveSpotlight(spotlightIndex, total);
+      suppressSpotlightClick = true;
+    }
+    resetPointer();
+  });
+
+  viewport.addEventListener("pointercancel", resetPointer);
+  viewport.addEventListener("click", (event) => {
+    if (!suppressSpotlightClick) return;
+    event.preventDefault();
+    event.stopPropagation();
+    suppressSpotlightClick = false;
+  }, true);
 }
 
 function moveSpotlight(index, total) {

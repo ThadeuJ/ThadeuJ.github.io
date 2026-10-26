@@ -314,3 +314,7 @@ body.is-intro .intro .intro-meta { animation:intro-rise .8s .36s cubic-bezier(.2
   .spotlight-art { height:260px; min-height:260px; }
   .spotlight-copy { height:340px; min-height:340px; padding-bottom:24px; overflow:hidden; }
 }
+
+/* Allow horizontal gestures without hijacking vertical page scrolling. */
+.spotlight-viewport { touch-action: pan-y; cursor: grab; }
+.spotlight-viewport.is-dragging { cursor: grabbing; user-select: none; }

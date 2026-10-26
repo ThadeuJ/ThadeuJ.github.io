@@ -17,16 +17,23 @@ const portfolioGames = [
     id: "pixel-fun", collection: "personal", status: "Jogável", type: "game", year: "2024", number: "03", featured: true, visual: "pixel",
     title: "Conrado's Pixel Fun", subtitle: "Pequenas descobertas coloridas",
     description: "Um projeto pessoal de estímulos visuais e coordenação motora, com dados salvos na nuvem e fluxo de bundles.",
-    tags: ["Unity", "Mobile", "Projeto pessoal"], demo: true, postOrder: 2,
+    tags: ["Unity", "Mobile", "Projeto pessoal"], demo: true, postOrder: 99,
     link: "https://thadeu-moscatelli.itch.io/cpf", linkLabel: "Abrir no itch.io",
-    cover: "https://img.itch.zone/aW1nLzI5NDk5NzkzLnBuZw==/original/ODhWL8.png"
+    cover: "assets/images/conrados-pixel-fun-cover.png"
   },
   {
     id: "pokemon-academy", collection: "personal", status: "Jogável", type: "game", year: "2026", number: "05", visual: "orbit",
     title: "Pokémon Academy", subtitle: "Aprenda, jogue e complete a Pokédex",
     description: "Uma plataforma interativa de quizzes e desafios sobre Pokémon, com perguntas de tipos, ataques, silhuetas, PokéDoku e uma Pokédex.",
-    tags: ["Web", "JavaScript", "Pokémon"], demo: true, postOrder: 5,
+    tags: ["Web", "JavaScript", "Pokémon"], demo: true, postOrder: 5, cover: "assets/images/pokemon-academy-cover.png",
     link: "https://thadeuj.github.io/PokemonAcademy/", linkLabel: "Jogar agora"
+  },
+  {
+    id: "dino-classic", collection: "personal", status: "Jogável", type: "game", year: "2026", number: "06", visual: "pixel",
+    title: "Dino Classic", subtitle: "Corra, pule e supere os obstáculos",
+    description: "Um experimento educacional em PICO-8 inspirado no clássico jogo do dinossauro, com salto, gravidade, obstáculos, colisões e sistema de pontuação.",
+    tags: ["PICO-8", "Lua", "Jogo educacional"], demo: true, postOrder: 6, cover: "assets/images/dino-classic-cover.png",
+    link: "https://thadeu-moscatelli.itch.io/dino-classic", linkLabel: "Jogar no itch.io"
   },
   {
     id: "analytics", collection: "professional", status: "Sistema", type: "system", year: "2026", number: "01", visual: "data",
@@ -103,9 +110,9 @@ const portfolioGames = [
   },
   {
     id: "angry-bird-pico8-lesson", collection: "lessons", status: "Aula", type: "lesson", year: "PICO-8", number: "02", visual: "orbit",
-    title: "Angry Bird em PICO-8", subtitle: "Do cart ao jogo executável na web",
+    title: "Flappy Bird em PICO-8", subtitle: "Do cart ao jogo executável na web",
     description: "Aula técnica sobre a arquitetura de um export HTML do PICO-8: canvas, runtime, cart compilado, controles, áudio e ciclo de execução.",
-    tags: ["Aula", "PICO-8", "Lua / Web"], demo: true, postOrder: 4,
+    tags: ["Aula", "PICO-8", "Lua / Web"], demo: true, postOrder: 4, cover: "assets/images/flappy-bird-pico8-cover-cropped.png",
     link: "https://thadeu-moscatelli.itch.io/angry", linkLabel: "Jogar no itch.io"
   }
 ];

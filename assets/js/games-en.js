@@ -3,6 +3,7 @@ const englishProjects = {
   "space-chase-v2": ["Space Chase V2", "A second pass through the stars", "A more structured version of the spaceship game, created to deepen design, documentation, and pixel art work.", ["Unity", "Pixel art", "Game design"]],
   "pixel-fun": ["Conrado's Pixel Fun", "Small colorful discoveries", "A personal project for visual stimuli and motor coordination, with cloud saves and a bundle workflow.", ["Unity", "Mobile", "Personal project"]],
   "pokemon-academy": ["Pokémon Academy", "Learn, play, and complete the Pokédex", "An interactive platform of Pokémon quizzes and challenges, with questions about types, moves, silhouettes, PokéDoku, and a Pokédex.", ["Web", "JavaScript", "Pokémon"]],
+  "dino-classic": ["Dino Classic", "Run, jump, and clear the obstacles", "An educational PICO-8 experiment inspired by the classic dinosaur game, with jumping, gravity, obstacles, collisions, and a scoring system.", ["PICO-8", "Lua", "Educational game"]],
   analytics: ["Game Analytics System", "Seeing the game behind the game", "An analytics system with game events, Python processing, and a spatial HTML dashboard for visualizing behavior inside levels.", ["Unity", "Python", "Data visualization"]],
   "melhor-viagem": ["Melhor Viagem", "Learning is also a journey", "An educational game developed with control programming, airplane selection, low-poly world modeling, and scenario design.", ["Unity", "Educational", "3D"]],
   "space-chase": ["Space Chase V1", "The first launch", "A spaceship game created in a course Game Jam, with menus, scene persistence, build, and WebGL publication.", ["Unity", "Game Jam", "WebGL"]],
@@ -15,7 +16,7 @@ const englishProjects = {
   "dialog-system": ["Dialog System", "Conversations as a visual graph", "A diagram-editable dialogue system with CSV and JSON imports, states, artwork, reactions, and animations.", ["Unity", "UGUI", "CSV / JSON"]],
   "education-apps": ["Educational Game Projects", "Learning through interaction", "Educational projects for math, English, gamification, and the unification of study applications.", ["Unity", "Educational", "Gamification"]],
   "flappy-bird-lesson": ["From the first object to your own Flappy Bird", "A practical game creation lesson", "A reference guide to scenes, objects, and events in GDevelop 5 while building a simple flying and obstacle game.", ["Lesson", "GDevelop 5", "Game development"]],
-  "angry-bird-pico8-lesson": ["Angry Bird in PICO-8", "From cart to an executable web game", "A technical lesson about a PICO-8 HTML export: canvas, runtime, compiled cart, controls, audio, and the execution cycle.", ["Lesson", "PICO-8", "Lua / Web"]]
+  "angry-bird-pico8-lesson": ["Flappy Bird in PICO-8", "From cart to an executable web game", "A technical lesson about a PICO-8 HTML export: canvas, runtime, compiled cart, controls, audio, and the execution cycle.", ["Lesson", "PICO-8", "Lua / Web"]]
 };
 Object.entries(englishProjects).forEach(([id, values]) => {
   const project = portfolioGames.find((item) => item.id === id);
