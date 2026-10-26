@@ -128,14 +128,13 @@ function initSpotlightSwipe(total) {
     startX = event.clientX;
     startY = event.clientY;
     isDragging = false;
-    viewport.setPointerCapture?.(event.pointerId);
   });
 
   viewport.addEventListener("pointermove", (event) => {
     if (!startX && !startY) return;
     const deltaX = event.clientX - startX;
     const deltaY = event.clientY - startY;
-    if (Math.abs(deltaX) < 8 || Math.abs(deltaX) <= Math.abs(deltaY)) return;
+    if (Math.abs(deltaX) < 12 || Math.abs(deltaX) <= Math.abs(deltaY)) return;
     isDragging = true;
     viewport.classList.add("is-dragging");
     event.preventDefault();
