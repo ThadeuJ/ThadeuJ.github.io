@@ -3,6 +3,25 @@ const dialog = document.querySelector("#project-dialog");
 const dialogContent = document.querySelector("#dialog-content");
 const contactDialog = document.querySelector("#contact-dialog");
 
+document.querySelectorAll(".language-switch").forEach((switcher) => {
+  switcher.querySelectorAll(".language-option span").forEach((label) => {
+    if (label.textContent === "PT") label.textContent = "BR";
+  });
+  switcher.addEventListener("click", (event) => {
+    const clickedOption = event.target.closest(".language-option");
+    const otherOption = switcher.querySelector(".language-option:not(.is-current)");
+    const destination = clickedOption?.classList.contains("is-current") ? otherOption : clickedOption || otherOption;
+    if (!destination) return;
+    event.preventDefault();
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      window.location.href = destination.href;
+      return;
+    }
+    switcher.classList.add("is-switching");
+    window.setTimeout(() => { window.location.href = destination.href; }, 260);
+  });
+});
+
 const isEnglish = document.documentElement.lang === "en";
 const typeLabels = isEnglish
   ? { game: "Game", system: "System", study: "Study", lesson: "Lesson" }

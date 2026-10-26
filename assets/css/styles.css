@@ -317,4 +317,25 @@ body.is-intro .intro .intro-meta { animation:intro-rise .8s .36s cubic-bezier(.2
 
 /* Allow horizontal gestures without hijacking vertical page scrolling. */
 .spotlight-viewport { touch-action: pan-y; cursor: grab; }
+
+/* Language control: keep both destinations visible and emphasize the current one. */
+.language-switch { display:inline-flex; align-items:center; gap:2px; min-width:0; padding:3px; border:1px solid var(--line); border-radius:999px; background:rgba(235,235,245,.08); }
+.language-option { display:inline-flex; align-items:center; gap:5px; padding:6px 8px; border-radius:999px; color:var(--muted); font:500 10px var(--mono); letter-spacing:.05em; text-decoration:none; filter:grayscale(1); opacity:.62; transition:background .2s ease,color .2s ease,filter .2s ease,opacity .2s ease; }
+.language-option .language-flag { width:18px; height:12px; filter:grayscale(1); }
+.language-option.is-current { color:var(--black); background:var(--acid); filter:none; opacity:1; }
+.language-option.is-current .language-flag { filter:none; }
+.language-option:not(.is-current):hover,.language-option:not(.is-current):focus-visible { color:var(--ink); opacity:1; }
+.language-option:focus-visible { outline:2px solid var(--acid); outline-offset:2px; }
+.language-switch.is-switching { animation:language-swap .26s cubic-bezier(.22,.61,.36,1); }
+.language-switch.is-switching .language-option.is-current { color:var(--muted); background:transparent; filter:grayscale(1); opacity:.62; }
+.language-switch.is-switching .language-option.is-current .language-flag { filter:grayscale(1); }
+.language-switch.is-switching .language-option:not(.is-current) { color:var(--black); background:var(--acid); filter:none; opacity:1; }
+.language-switch.is-switching .language-option:not(.is-current) .language-flag { filter:none; }
+@keyframes language-swap { 50% { transform:scale(1.08); filter:brightness(1.2); } }
+.legacy-language { float:none; }
+@media (max-width:760px) { .language-switch { padding:2px; }.language-option { padding:5px 6px; gap:4px; }.language-option .language-flag { width:17px; height:11px; } }
+
+/* Keep the contact action visually consistent across portfolio and resume headers. */
+.nav-contact { width:140px; min-height:36px; padding:0 12px; display:inline-flex; align-items:center; justify-content:center; white-space:nowrap; }
+@media (max-width:760px) { .nav-contact { width:36px; min-height:34px; padding:0; } }
 .spotlight-viewport.is-dragging { cursor: grabbing; user-select: none; }

@@ -19,6 +19,17 @@ a { color:inherit; }.lesson-wrap { width:min(1160px,calc(100% - 64px)); margin:a
 @media(max-width:760px) { .lesson-header a[href="angry-bird-pico8-en.html"],.lesson-header a[href="angry-bird-pico8.html"] { display:inline-flex; } }
 @media(max-width:760px) { .lesson-header { min-height:70px; gap:10px; }.lesson-brand { min-width:0; margin-right:auto; }.lesson-brand span:last-child { overflow:hidden; white-space:nowrap; }.lesson-header .lesson-play { max-width:92px; overflow:hidden; text-overflow:ellipsis; }.lesson-header-links { display:contents; } }
 .lesson-header .language-switch .language-flag { display:block; width:20px; height:14px; object-fit:cover; border-radius:2px; box-shadow:0 0 0 1px rgba(16,17,15,.22); }
+.lesson-header .language-switch { display:inline-flex; align-items:center; gap:2px; min-width:0; padding:3px; border:1px solid var(--lesson-line); border-radius:999px; background:rgba(255,255,255,.08); }
+.lesson-header .language-option { display:inline-flex; align-items:center; gap:5px; padding:6px 8px; border-radius:999px; color:var(--lesson-muted); font:500 10px var(--lesson-mono); letter-spacing:.05em; text-decoration:none; filter:grayscale(1); opacity:.62; }
+.lesson-header .language-option.is-current { color:var(--lesson-bg); background:var(--lesson-acid); filter:none; opacity:1; }
+.lesson-header .language-option.is-current .language-flag { filter:none; }
+.lesson-header .language-option:not(.is-current) .language-flag { filter:grayscale(1); }
+.lesson-header .language-switch.is-switching { animation:lesson-language-swap .26s cubic-bezier(.22,.61,.36,1); }
+.lesson-header .language-switch.is-switching .language-option.is-current { color:var(--lesson-muted); background:transparent; filter:grayscale(1); opacity:.62; }
+.lesson-header .language-switch.is-switching .language-option.is-current .language-flag { filter:grayscale(1); }
+.lesson-header .language-switch.is-switching .language-option:not(.is-current) { color:var(--lesson-bg); background:var(--lesson-acid); filter:none; opacity:1; }
+.lesson-header .language-switch.is-switching .language-option:not(.is-current) .language-flag { filter:none; }
+@keyframes lesson-language-swap { 50% { transform:scale(1.08); filter:brightness(1.2); } }
 .lesson-header .language-switch:not(:has(.language-flag))::before { background-size:cover; background-position:center; }
 .lesson-header a[href$="-en.html"]::before { background-image:url("../icons/flag-england.svg"); }.lesson-header a[href$=".html"]:not([href$="-en.html"])::before { background-image:url("../icons/flag-brazil.svg"); }
 .lesson-header a[href="angry-bird-pico8-en.html"],.lesson-header a[href="angry-bird-pico8.html"] { font-size:0; gap:6px; }.lesson-header a[href="angry-bird-pico8-en.html"]::before,.lesson-header a[href="angry-bird-pico8.html"]::before { font-size:15px; line-height:1; }.lesson-header a[href="angry-bird-pico8-en.html"]::before { content:"🇬🇧"; }.lesson-header a[href="angry-bird-pico8.html"]::before { content:"🇧🇷"; }.lesson-header a[href="angry-bird-pico8-en.html"]::after { content:"EN"; font:500 10px var(--lesson-mono); }.lesson-header a[href="angry-bird-pico8.html"]::after { content:"PT"; font:500 10px var(--lesson-mono); }
