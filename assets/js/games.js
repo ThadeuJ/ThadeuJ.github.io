@@ -23,9 +23,9 @@ const portfolioGames = [
   },
   {
     id: "pokemon-academy", collection: "personal", status: "Jogável", type: "game", year: "2026", number: "05", visual: "orbit",
-    title: "Pokémon Academy", subtitle: "Aprenda, jogue e complete a Pokédex",
-    description: "Uma plataforma interativa de quizzes e desafios sobre Pokémon, com perguntas de tipos, ataques, silhuetas, PokéDoku e uma Pokédex.",
-    tags: ["Web", "JavaScript", "Pokémon"], demo: true, postOrder: 5, cover: "assets/images/pokemon-academy-cover.png",
+    title: "PokeAcademy", subtitle: "Desafios, sessões e uma Pokédex para explorar",
+    description: "Plataforma web com seis quizzes Pokémon, partidas de 10, 20, 30 fases ou infinitas, cronômetro, resultados compartilháveis, Pokemon Grid Puzzle e uma Pokédex.",
+    tags: ["Web", "JavaScript", "PokéAPI"], demo: true, postOrder: 5, cover: "assets/images/pokemon-academy-cover.png",
     link: "https://thadeuj.github.io/PokemonAcademy/", linkLabel: "Jogar agora"
   },
   {
